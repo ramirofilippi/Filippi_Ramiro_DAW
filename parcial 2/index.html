@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Parcial 2 Ramiro Filippi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="formClima">   
+        <fieldset>
+            <legend>Consulta de Clima</legend>
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad"  placeholder="Rosario">
+            <button type="submit" id="btnClima">Buscar Clima</button>
+            <div id="estado"></div>
+            <div id="resultado" class="resultado" hidden>
+                <span id="resCiudad"></span>
+                <span id="resTemperatura"></span>
+                <span id="resViento"></span>
+                <span id="resCodigo"></span>
+            </div>
+        </fieldset>
+    </form>
+    <script src="function.js"></script>
+</body>
+</html>
